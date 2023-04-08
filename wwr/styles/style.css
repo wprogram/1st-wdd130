@@ -27,6 +27,78 @@ nav a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+.mainfork-title {
+    border: 5px solid #0C57A4;
+    text-align: center;
+    color: #436096;
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+}
+.mainfork-img {
+    border: 3px solid #0C57A4;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 20px;
+    position:relative;
+    right: -5px;
+}
+h6 {
+  color: #436096;
+  font-size: 25px;
+  width: 900px;
+  text-indent: 50px;
+  display: flex;
+  display: inline-block;
+  position:relative;
+   bottom: 100px;
+  
+}
+.desolation-title {
+    border: 5px solid #0C57A4;
+    text-align: center;
+    color: #436096;
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+}
+.desolation-img {
+    border: 3px solid #0C57A4;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 30px;
+    position:relative;
+    right: -5px;
+}
+.grand-title {
+    border: 5px solid #0C57A4;
+    text-align: center;
+    color: #436096;
+    width: 500px;
+    margin: auto;
+    margin-top: -10px;
+}
+.grand-img {
+    border: 3px solid #0C57A4;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-bottom: -30px;
+    position:relative;
+    right: -5px;
+    bottom: -10px;
+    
+}
+.rivers-msg {
+    text-align: center;
+    color: #436096;
+    background-color: #CCD4E3;
+    line-height: 0px;
+    border: 5px solid #0C57A4;
+    width: 900px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 25px;
+  }
 .book, .join {
     background-color: #0C57A4; 
     color:  #ffffff;
@@ -58,6 +130,7 @@ nav a {
 }
 h4 {
     color:#396E94;
+    text-align: center;
 }
 #hero-msg h1, #hero-msg h4  {
     text-align: center;
@@ -229,4 +302,5 @@ footer h3 a {
         margin-top: 25px;
     }
 }
+
                  
