@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Lato', 'Poppins', 'Roboto', sans-serif;
+}
 main {
     max-width: 840px;
 }
@@ -17,17 +29,20 @@ h1 {
 }
 
 main img{
-    width: 150px;
+    width: 110px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 p{
-    padding: 0;
+    margin: 1rem; 
 }
 
+p
 aside{
     width: 20em;
     margin: 1em;
@@ -36,6 +51,7 @@ aside{
     background-color: #eee;
     color: #333;
     text-align: center;
+    position:relative;
 }
 
 aside img{
@@ -43,8 +59,27 @@ aside img{
     height: auto;
 }
 
+aside h2 {
+    position: absolute;
+    top: 510px;
+    left: 50px;
+}
+
 footer{
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class Selectors */
+.box{
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
+}
+
+.indent {
+    padding-left: 1rem;
 }
