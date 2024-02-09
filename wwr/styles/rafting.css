@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300;1,400&display=swap');
+
+:root {
+  --main-text-color: #436096;
+  --heading-color:#616894;
+  --background-color: #ccd4e3 ;
+  --link-color: #396E94;
+}
+
+body {
+  font-family: 'Roboto',Rubik Vinyl;
+  background-color:var(--background-color);
+  color:var(--main-text-color);
+  margin: 0;
+  padding-left: 20px;
+}
+
+ h1, h2 {
+  color: var(--headline-color);
+  font-family:'Roboto', sans-serif;
+  font-size:2rem;
+}
+
+p {
+  font-family:'Roboto', sans-serif;
+  color: var(--main-text-color);
+  padding: 1em;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+nav {
+  background-color: var(--background-color);
+  font-size: 1.2em;
+  display: flex;
+}
+
+nav a {
+  padding: 1em;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav a:link, 
+nav a:visited {
+  color: var(--link-color);
+}
+
+h1, 
+#hero {
+  position: relative;
+  text-align: center;
+  color: var(--main-text-color);
+  top: -840px;
+  padding: 1px;
+  border: 1px solid var(--main-text-color);
+  background-color: rgba(204, 227, 226, 0.484);
+  height: 100px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: -20px;
+  margin-bottom: -20px; /* Adjust margin to remove space */
+  padding-right: 50px;
+}
+
+article{
+  position: relative;
+  width: 85%;
+  margin:auto;
+  top: -800px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 1px;
+  border: 1px solid var(--main-text-color);
+  background-color: rgba(173, 216, 230, 0.5);
+  height: auto;
+  margin-bottom: 0;
+}
+
+article img {
+  float:right;
+  width: 20%;
+  margin-top: 20px;
+  margin-left: 1%;
+  margin-right: auto;
+}
+
+article p {
+  width: 70%; 
+  margin-right: 25%; 
+  margin-top: 20px;
+}
+
+section {
+  margin-top: 0; 
+  padding-top: 0; 
+}
+
+section h2 {
+  margin-top: 0; /* Remove top margin for h2 */
+}
+
+section p {
+  margin-bottom: 0; /* Remove bottom margin for p */
+}
+
+section img {
+  margin-top: 0; /* Remove top margin for img */
+}
