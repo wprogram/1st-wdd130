@@ -32,17 +32,26 @@ nav {
   background-color: var(--background-color);
   font-size: 1.2em;
   display: flex;
+  justify-content: center; 
+  align-items: center;
 }
 
 nav a {
-  padding: 1em;
+  padding: 10px; 
   text-decoration: none;
-  padding: 5px;
+  color: var(--link-color); 
+  margin: 0 10px;
+  font-weight: bold;
 }
 
 nav a:link, 
 nav a:visited {
   color: var(--link-color);
+}
+
+nav a:hover {
+  color: #fff; 
+  background-color: var(--link-color); 
 }
 
 h1, 
@@ -93,4 +102,40 @@ article p {
   width: 70%; 
   margin-right: 25%; 
   margin-top: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--background-color);
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+.logo img {
+  width: 150px; 
+}
+
+nav a:first-child {
+  margin-left: 0; 
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.history h2 {
+  margin-bottom: 10px;
+}
+
+.history p {
+  margin-bottom: 20px;
 }

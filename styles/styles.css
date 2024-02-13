@@ -5,10 +5,21 @@ body{
     font-family: 'Lato', 'Poppins', 'Roboto', sans-serif;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+header,
+footer,
+.grid {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: purple;
 }
 
 nav {
@@ -22,7 +33,6 @@ nav {
 nav a {
     color: white;
     padding: 10px;
-    display: block;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
@@ -30,22 +40,18 @@ nav a {
 
 h1 {
     color: steelblue;
-}
-
-h2 {
-    color: purple;
+    border-bottom: 2px solid steelblue;
 }
 
 main img{
-    width: 150px;
+    width: 130px;
     height: auto;
     border: 1px solid steelblue;
     padding: 3px;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin: -7rem 1rem 0.5rem 1rem;
-    margin-top: -9%;
-    
+    margin: 3rem 1rem 0.5rem 1rem;
+    margin-top: 7%;
 }
 
 p{
@@ -91,12 +97,6 @@ footer{
 
 .indent {
     padding-left: 1rem;
-}
-
-header.grid,
-footer.grid {
-    margin: 0 auto;
-    max-width: 840px;
 }
 
 .grid {
