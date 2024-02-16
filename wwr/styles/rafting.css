@@ -125,17 +125,77 @@ nav a:first-child {
 }
 
 .history {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
   padding: 20px;
 }
 
 .history h2 {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
-.history p {
+.history img {
+  max-width: 50%;
   margin-bottom: 20px;
+}
+
+.content-container {
+  display: grid;
+  grid-template-columns: 2fr 50% 2fr;
+  grid-column-gap: 5px;
+}
+
+.text-container {
+  max-width: 100%;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adventures {
+  text-align: center;
+  padding: 20px;
+}
+
+.adventures h2 {
+  margin-bottom: 15px;
+}
+
+.adventures-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.adventures-container figure {
+  flex: 1;
+  margin: 0 5px;
+}
+
+.adventures-container img {
+  width: 80%;
+  height: auto;
+}
+
+.adventures-container figcaption {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  padding: 20px;
+}
+
+footer img {
+  width: 40px; 
+  margin-left: 20px; 
+}
+
+footer p {
+  margin-right: 350px;
 }
