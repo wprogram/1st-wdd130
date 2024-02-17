@@ -16,6 +16,14 @@ body {
   padding-right: 15px;
 }
 
+.header-grid {
+  display: grid;
+  grid-template-columns: 1fr auto; 
+  align-items: center; 
+  padding: 20px;
+  background-color: var(--background-color);
+}
+
  h1, h2 {
   color: var(--headline-color);
   font-family:'Roboto', sans-serif;
@@ -32,7 +40,7 @@ nav {
   background-color: var(--background-color);
   font-size: 1.2em;
   display: flex;
-  justify-content: center; 
+  justify-content: flex-end; 
   align-items: center;
 }
 
@@ -40,7 +48,7 @@ nav a {
   padding: 10px; 
   text-decoration: none;
   color: var(--link-color); 
-  margin: 0 10px;
+  margin-left: 20px;
   font-weight: bold;
 }
 
@@ -117,7 +125,7 @@ header {
 }
 
 .logo img {
-  width: 150px; 
+  max-width: 100%; 
 }
 
 nav a:first-child {
