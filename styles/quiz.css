@@ -13,7 +13,7 @@ body {
   padding: 0;
 }
 
-form {
+.container{
   max-width: 500px;
   margin: 20px auto;
   padding: 20px;
@@ -22,9 +22,10 @@ form {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+.container .quiz-title {
   text-align: center;
   color: var(--heading-color);
+  font-size: 34px;
 }
 
 label {
@@ -54,10 +55,12 @@ button[type="submit"] {
   background-color: var(--link-color);
   color: #fff;
   border: none;
-  padding: 10px 20px;
+  padding: 15px 30px;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  display: block;
+  margin: 20px auto;
 }
 
 button[type="submit"]:hover {

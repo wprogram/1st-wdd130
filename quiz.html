@@ -5,20 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML and CSS Quiz</title>
+    <meta name="description" content="Godspeace Etaje's BYU-Idaho online WDD 130 course Quiz">
+    <meta name="author" content="Godspeace Etaje"> 
+
+  <link rel="stylesheet" href="styles/quiz.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Basic HTML and CSS Quiz</h1>
-    <form action="#" method="post">
-        <div>
+    <div class="container">
+      <h1 class="quiz-title">Basic HTML and CSS Quiz</h1>
+      <form action="#" method="post">
+        <div class="question">
             <label for="q1">1. Fill in the blank: The abbreviation for Cascading Style Sheets is:</label>
             <input type="text" id="q1" name="q1" required>
-        </div>
-        <div>
+       </div>
+        <div class="question">
             <label for="q2">2. Explain briefly what HTML is:</label>
             <textarea id="q2" name="q2" rows="4" required></textarea>
         </div>
-        <div>
+        <div class="question">
             <label for="q3">3. What technology are you learning about today?</label>
             <select id="q3" name="q3" required>
                 <option value="" selected disabled>Choose One ...</option>
@@ -27,12 +33,13 @@
                 <option value="both">Both</option>
             </select>
         </div>
-        <div>
+        <div class="question">
             <label for="q4">4. How many HTML elements are there in HTML5?</label>
             <input type="number" id="q4" name="q4" required>
         </div>
         <button type="submit">Submit Quiz</button>
     </form>
+ </div>
 </body>
 
 </html>
