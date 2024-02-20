@@ -8,9 +8,9 @@
 }
 
 body {
-  font-family: 'Roboto',Rubik Vinyl;
-  background-color:var(--background-color);
-  color:var(--main-text-color);
+  font-family: 'Roboto', 'Rubik Vinyl';
+  background-color: #ccd4e3;
+  color: var(--main-text-color);
   margin: 0;
   padding-left: 15px;
   padding-right: 15px;
@@ -18,14 +18,14 @@ body {
 
 .header-grid {
   display: grid;
-  grid-template-columns: 1fr auto; 
+  grid-template-columns: auto 1fr auto; 
   align-items: center; 
   padding: 20px;
   background-color: var(--background-color);
 }
 
  h1, h2 {
-  color: var(--headline-color);
+  color: var(--heading-color);
   font-family:'Roboto', sans-serif;
   font-size:2rem;
 }
