@@ -10,7 +10,8 @@ body{
         padding: 0;
         box-sizing: border-box;
     }
-    
+  
+/* Class Selectors */   
 header,
 footer,
 .grid {
@@ -99,6 +100,7 @@ footer{
     padding-left: 1rem;
 }
 
+/* Grid Layout */
 .grid {
     display: grid;
     align-items: center;
