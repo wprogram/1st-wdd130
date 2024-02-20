@@ -38,7 +38,7 @@ p {
 
 nav {
   background-color: var(--background-color);
-  font-size: 1.2em;
+  font-size: 1.5em;
   display: flex;
   justify-content: flex-end; 
   align-items: center;
@@ -206,4 +206,118 @@ footer img {
 
 footer p {
   margin-right: 350px;
+}
+
+.info-box {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  margin: -30px auto;
+  max-width: 800px;
+}
+
+.info-box section{
+  margin-bottom: 20px;
+}
+
+.contact-info, 
+.google-map {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-info h2
+.google-map h2 {
+  margin: 0;
+}
+
+.contact-info p,
+.google-map iframe {
+  margin: 10px 0;
+}
+
+.contact-form {
+  margin-top: 20px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-form h2 {
+  font-size: 40px; 
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  font-size: 18px; 
+  margin-bottom: 5px; 
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  padding: 12px;
+  font-size: 16px; 
+  margin-bottom: 10px; 
+  width: 100%;
+}
+
+.contact-form fieldset {
+  width: 100%; 
+  margin-bottom: 15px;
+  border: 2px solid var(--heading-color);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.contact-form button[type="submit"] {
+  padding: 12px 30px;
+  font-size: 18px; 
+  width: 52.5%;
+  background-color: var(--link-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: var(--background-color) 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.employee-profiles {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.employee-profiles h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.employee-profiles .adventures-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.employee-profiles figure {
+  flex: 1;
+  margin: 0 5px;
+}
+
+.employee-profiles img {
+  width: 80%;
+  height: auto;
+}
+
+.employee-profiles figcaption {
+  margin-top: 10px;
+  font-style: italic;
 }
