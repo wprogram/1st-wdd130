@@ -380,6 +380,7 @@ footer p {
 .trip-table td,
 .trip-table h2 {
   font-size: 1.3rem; 
+  text-align: center;
 }
 
 .trip-table caption {
@@ -391,21 +392,22 @@ footer p {
   font-size: 130%;
 }
 
-.hero {
+.hero-description {
   position: relative;
   text-align: center;
 }
 
-.hero img {
+.hero-description img {
   width: 100%;
   height: auto;
 }
 
-.hero h1 {
+.hero-description h1 {
   font-size: 2rem; 
   padding: 10px 0; 
   margin: 0; 
   color: white;
+  margin-top: -10%;
 }
 
 .newsletter {
@@ -415,16 +417,24 @@ footer p {
   margin-left: 0%;
 }
 
-.newsletter h2 {
+.newsletter-form h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
-.newsletter form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.newsletter-form .form-group {
   margin-top: 10px;
+}
+
+.newsletter-form {
+  width: 38%;
+  margin-top: 5%;
+  float: left;
+  margin-left: 0%;
+}
+
+.newsletter-form label {
+  font-size: 1rem;
 }
 
 .newsletter input[type="text"],

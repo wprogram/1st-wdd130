@@ -24,17 +24,23 @@
     </header>
 
     <main>
-        <section class="hero">
+        <section class="hero-description">
             <img src="images/hero.png" alt="Rafting Adventure">
             <h1>Welcome to Water Away Rafting</h1>
         </section>
 
         <section class="newsletter">
             <h2>Sign Up for Our Newsletter</h2>
-            <form action="#" method="post">
-                <input type="text" id="name" name="name" placeholder="Your Name">
-                <input type="email" id="email" name="email" placeholder="Your Email">
-                <button type="submit" class="subscribe-button">Subscribe</button>
+            <form id="newsletter-form" class="newsletter-form" action="/submit-newsletter" method="post">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <button type="submit" class="subscribe-button">Sign Up</button>
             </form>
         </section>
 
